@@ -12,22 +12,22 @@ a[b-tiw6yy225m] {
 }
 
 .btn-primary[b-tiw6yy225m] {
-  color: #fff;
+  color: rgb(243, 6, 6);
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
 
 .nav-pills .nav-link.active[b-tiw6yy225m], .nav-pills .show > .nav-link[b-tiw6yy225m] {
-  color: #fff;
+  color: rgb(224, 12, 12);
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
 
 .border-top[b-tiw6yy225m] {
-  border-top: 1px solid #e5e5e5;
+  border-top: 1px solid #f81313;
 }
 .border-bottom[b-tiw6yy225m] {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #f31e1e;
 }
 
 .box-shadow[b-tiw6yy225m] {
@@ -46,3 +46,4 @@ button.accept-policy[b-tiw6yy225m] {
   white-space: nowrap;
   line-height: 60px;
 }
+
