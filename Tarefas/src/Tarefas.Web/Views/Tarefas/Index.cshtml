@@ -1,0 +1,31 @@
+@model IEnumerable<Tarefas.Web.Models.TarefaViewModel>
+
+<table class="table">
+
+    <thead>
+        <tr>
+         <th scope="col">@Html.DisplayNameFor(model => model.Id)</th>
+         <th scope="col">@Html.DisplayNameFor(model => model.Titulo)</th>
+         <th scope="col">@Html.DisplayNameFor(model => model.Descricao)</th>
+         <th scope="col"> Detalhes </th>
+        </tr>
+    </Thead>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <th>
+                @item.Id
+            </th>
+            <th>
+                @item.Titulo
+            </th>
+            <th>
+                @item.Descricao
+            </th>
+            <th>
+                <a asp-controller = "Tarefas" asp-action = "Details" asp-route-id="@item.Id"> Detalhes </a>
+            </th>
+        </tr>
+    }
+</table>
